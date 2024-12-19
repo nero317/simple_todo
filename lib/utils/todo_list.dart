@@ -11,8 +11,8 @@ class TodoList extends StatelessWidget {
 
   final String taskName;
   final bool taskCompleted;
-  final Function(bool?)? onChanged; //here
-  final Function(BuildContext)? deleteFunction; //here
+  final Function(bool?)? onChanged;
+  final Function(BuildContext)? deleteFunction;
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,6 @@ class TodoList extends StatelessWidget {
         bottom: 0,
       ),
       child: Slidable(
-        //here Slidable 위젯 설명
         endActionPane: ActionPane(
           motion: const StretchMotion(),
           children: [

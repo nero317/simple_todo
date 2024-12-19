@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    loadTodoList(); // 앱이 시작될 때 목록을 로드
+    loadTodoList();
   }
 
   @override
